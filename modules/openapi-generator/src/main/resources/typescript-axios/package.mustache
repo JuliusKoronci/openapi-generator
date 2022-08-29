@@ -30,7 +30,8 @@
   }{{#npmRepository}},{{/npmRepository}}
 {{#npmRepository}}
   "publishConfig": {
-    "registry": "{{npmRepository}}"
+    "registry": "{{npmRepository}}",
+    "directory": "dist"
   }
 {{/npmRepository}}
 }
